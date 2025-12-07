@@ -30,9 +30,9 @@
 
 	        <div class="footer">
                 <div class="mt-auto text-center p-3">
-	        	    <p>
-					     Copyright &copy;<script>document.write(new Date().getFullYear());</script> This website is made with <i class="bi bi-balloon-heart-fill"></i></i> by <a href="#" target="_blank">andre</a>
-				    </p>
+	        	      <p>
+					          Copyright &copy;<script>document.write(new Date().getFullYear());</script>This website is made with <i class="bi bi-balloon-heart-fill"></i></i> by <a href="#" target="_blank">andre</a>
+				          </p>
                 </div>
 	        </div>
 

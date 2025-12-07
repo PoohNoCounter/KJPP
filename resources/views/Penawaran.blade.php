@@ -90,13 +90,13 @@
         <h2 style="font-size: 1.875rem; font-weight: bold; color: #000000; margin: 0;">Data Penawaran</h2>
     </div>
         <a href="{{ route('penawaran.create') }}" 
-        style="display: inline-block; background: #2bb01c; color: white; padding: 0.75rem 1.5rem; border-radius: 0.375rem; text-decoration: none; font-weight: 500; margin-bottom: 1rem;">
+        style="display: inline-block; background: #000000; color: white; padding: 0.75rem 1.5rem; border-radius: 0.375rem; text-decoration: none; font-weight: 500; margin-bottom: 1rem;">
         Tambah Surat
         </a>
     </div>
     <table style="width: 100%; border-collapse: collapse; background: white; box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);">
         <thead>
-            <tr style="background: #282a2f; color: white;">
+            <tr style="background: #000000; color: white;">
                 <th style="padding: 0.75rem; text-align: left;">No</th>
                 <th style="padding: 0.75rem; text-align: left;">Nomor Penawaran</th>
                 <th style="padding: 0.75rem; text-align: left;">Tanggal</th>
