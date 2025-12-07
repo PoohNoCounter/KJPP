@@ -15,8 +15,7 @@ Route::get('penilaian', function () {
     return view('/Penilaian');
 });
 
-Route::get('/penawaran/create', [PenawaranController::class, 'create'])->name('penawaran.create');
-Route::get('/penawaran/edit', [PenawaranController::class, 'edit'])->name('penawaran.Eedit');
+Route::get('/penawaran/cetak/{id}', [PenawaranController::class, 'cetak'])->name('penawaran.cetak');
 Route::get('/penawaran', [PenawaranController::class, 'penawaran'])->name('penawaran');
 Route::resource('/penawaran', PenawaranController::class);
 

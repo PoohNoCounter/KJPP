@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use App\Models\Penawaran;
 use Illuminate\Http\Request;
 
+use function Spatie\LaravelPdf\Support\pdf;
+
 class PenawaranController extends Controller
 {
     public function index()
@@ -70,5 +72,15 @@ class PenawaranController extends Controller
         $penawaran->delete();
 
         return redirect()->route('penawaran.index')->with('success', 'Surat berhasil dihapus');
+    }
+
+    public function cetak ($id)
+    {
+
+       $penawaran = Penawaran::findOrFail($id);
+
+       return pdf()
+            ->view('penawaran.cetak',compact('penawaran'))
+            ->name('dokumenpenawaran.pdf');
     }
 }

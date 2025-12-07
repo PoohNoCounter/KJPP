@@ -115,6 +115,9 @@
                         <a href="{{ route('penawaran.edit', $penawaran->id) }}"
                             style="color: #2f2fdd; text-decoration: none; margin-right: 0.5rem;"><i
                                 class="bi bi-pencil-square"></i></a>
+                        <a href="{{ route('penawaran.cetak', $penawaran->id) }}"
+                            style="color: #2f2fdd; text-decoration: none; margin-right: 0.5rem;"><i
+                                class="bi bi-pencil-square"></i></a>
                         <form action="{{ route('penawaran.destroy', $penawaran->id) }}" method="POST"
                             style="display: inline;">
                             @csrf
