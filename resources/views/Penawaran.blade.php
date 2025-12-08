@@ -99,8 +99,8 @@
             <tr style="background: #000000; color: white;">
                 <th style="padding: 0.75rem; text-align: left;">No</th>
                 <th style="padding: 0.75rem; text-align: left;">Nomor Penawaran</th>
-                <th style="padding: 0.75rem; text-align: left;">Tanggal</th>
-                <th style="padding: 0.75rem; text-align: left;">Pemberi</th>
+                <th style="padding: 0.75rem; text-align: left;">Tanggal Penawaran</th>
+                <th style="padding: 0.75rem; text-align: left;">Pemberi Tugas</th>
                 <th style="padding: 0.75rem; text-align: center;">Aksi</th>
             </tr>
         </thead>
