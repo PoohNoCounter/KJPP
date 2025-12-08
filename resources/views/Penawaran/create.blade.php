@@ -173,6 +173,12 @@
                         </div>
 
                         <div class="form-group">
+                            <label class="form-label">Alamat Pemberi Tugas <span style="color: #ef4444;">*</span></label>
+                            <input type="text" name="alamat_pemberi" class="form-input"
+                                placeholder="Alamat pemberi tugas" required>
+                        </div>
+
+                        <div class="form-group">
                             <label class="form-label">Identifikasi Objek Penilaian <span
                                     style="color: #ef4444;">*</span></label>
                             <input type="text" name="jenis_aset" class="form-input"
@@ -183,7 +189,7 @@
 
                 <!-- Data Pengguna -->
                 <div class="form-section">
-                    <h3 class="section-title"><i class="bi bi-file-earmark-person-fill" style="color: #626d9d"></i> Data
+                    <h3 class="section-title"><i class="bi bi-file-earmark-person-fill" style="color: #7632c8"></i> Data
                         Pengguna Laporan & Alamat Pengguna</h3>
 
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
@@ -218,18 +224,32 @@
                     </div>
                 </div>
 
-                <!-- Informasi Finansial -->
+                <!-- Informasi Rekening -->
                 <div class="form-section">
+                    <h3 class="section-title"><i class="bi bi-credit-card-2-front-fill" style="color: #2563eb"></i>
+                        Data-Data Yang Diperlukan</h3>
+
+                    <div class="form-group">
+                        <label class="form-label">Data Kebutuhan</label>
+                        <input type="text" step="0.01" name="data_kebutuhan" class="form-input"
+                            placeholder="Kebutuhan">
+                    </div>
+                </div>
+
+
+                <!-- Data data -->
+                <div style="margin-bottom: 1.5rem;">
                     <h3 class="section-title"><i class="bi bi-coin" style="color: #f0ec15"></i> Informasi Finansial</h3>
 
                     <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
                         <div class="form-group">
-                            <label class="form-label">Nilai Kebutuhan</label>
+                            <label class="form-label">Nomor Rekening</label>
                             <div style="position: relative;">
                                 <span
                                     style="position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); color: #6b7280;"></span>
-                                <input type="text" step="0.01" name="nilai_kebutuhan" class="form-input"
-                                    style="padding-left: 3rem;" placeholder="Kebutuhan">
+                                <input type="text" name="norek" class="form-input"
+                                    placeholder="Contoh: 1234567890">
+
                             </div>
                         </div>
 
@@ -242,17 +262,6 @@
                                     style="padding-left: 3rem;" placeholder="0.00">
                             </div>
                         </div>
-                    </div>
-                </div>
-
-                <!-- Informasi Rekening -->
-                <div style="margin-bottom: 1.5rem;">
-                    <h3 class="section-title"><i class="bi bi-credit-card-2-front-fill" style="color: #2563eb"></i>
-                        Informasi Rekening</h3>
-
-                    <div class="form-group">
-                        <label class="form-label">Nomor Rekening</label>
-                        <input type="text" name="norek" class="form-input" placeholder="Contoh: 1234567890">
                     </div>
                 </div>
 

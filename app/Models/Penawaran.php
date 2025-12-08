@@ -12,9 +12,12 @@ class Penawaran extends Model
         'tanggal',
         'pemberi',
         'jenis_aset',
+        'alamat_pemberi',
+        'pengguna',
+        'alamat_pengguna',
         'maksud',
         'tujuan',
-        'nilai_kebutuhan',
+        'data_kebutuhan',
         'biaya',
         'norek',
     ];

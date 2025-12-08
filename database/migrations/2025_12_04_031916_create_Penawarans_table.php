@@ -17,9 +17,12 @@ return new class extends Migration
             $table->date('tanggal');
             $table->string('pemberi');
             $table->string('jenis_aset');
+            $table->string('alamat_pemberi');
+            $table->string('pengguna');
+            $table->string('alamat_pengguna');
             $table->text('maksud')->nullable();
             $table->text('tujuan')->nullable();
-            $table->text('nilai_kebutuhan')->nullable();
+            $table->text('data_kebutuhan')->nullable();
             $table->decimal('biaya', 15, 2)->nullable();
             $table->string('norek')->nullable();
             $table->timestamps();
